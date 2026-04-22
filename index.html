@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="id" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>InfraBuild - Solusi Infrastruktur Masa Depan</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+    </style>
+</head>
+<body class="bg-slate-50 text-slate-800">
+
+    <nav id="navbar" class="fixed w-full z-50 transition-all duration-300 py-4 px-6 md:px-12 flex justify-between items-center bg-transparent">
+        <div class="text-2xl font-bold text-white tracking-tighter">
+            <span class="infra text-white">INFRA</span><span class="text-orange-500">BUILD</span>
+        </div>
+        <div class="hidden md:flex space-x-8 font-medium">
+            <a href="#home" class="hover:text-orange-500 transition">Beranda</a>
+            <a href="#about" class="hover:text-orange-500 transition">Tentang</a>
+            <a href="#services" class="hover:text-orange-500 transition">Layanan</a>
+            <a href="#projects" class="hover:text-orange-500 transition">Proyek</a>
+            <a href="#contact" class="bg-orange-500 px-5 py-2 rounded-full hover:bg-orange-600 transition">Hubungi Kami</a>
+        </div>
+        <button class="md:hidden text-white text-2xl">
+            <i class="fas fa-bars"></i>
+        </button>
+    </nav>
+
+    <section id="home" class="relative h-screen flex items-center justify-center overflow-hidden">
+        <div class="relative z-10 text-center px-4 max-w-4xl flex justify-center flex-col mx-auto">
+            <h1 class="text-4xl md:text-7xl font-bold text-blue-900 mb-6 leading-tight">
+                Membangun Pondasi <span class="text-orange-500">Masa Depan</span> Indonesia
+            </h1>
+            <p class="text-lg md:text-xl text-slate-700 mb-8 max-w-2xl mx-auto">
+                Kontraktor infrastruktur terpercaya dengan spesialisasi pada pembangunan jalan, jembatan, dan sistem pengairan berskala nasional.
+            </p>
+            <div class="flex flex-col md:flex-row gap-4 justify-center">
+                <a href="#projects" class="bg-orange-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-orange-600 transition shadow-lg shadow-orange-500/30">Lihat Proyek Kami</a>
+                <a href="#about" class="bg-white/10 backdrop-blur-md border border-white/20 px-8 py-4 rounded-lg font-bold hover:bg-white/20 transition text-slate-700">Pelajari Lebih Lanjut</a>
+            </div>
+        </div>
+    </section>
+
+    <section class="py-12 bg-white border-b">
+        <div class="container mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
+            <div>
+                <h3 class="text-3xl font-bold text-slate-900">150+</h3>
+                <p class="text-slate-500 uppercase text-sm tracking-widest mt-2">Proyek Selesai</p>
+            </div>
+            <div>
+                <h3 class="text-3xl font-bold text-slate-900">15+</h3>
+                <p class="text-slate-500 uppercase text-sm tracking-widest mt-2">Tahun Pengalaman</p>
+            </div>
+            <div>
+                <h3 class="text-3xl font-bold text-slate-900">500+</h3>
+                <p class="text-slate-500 uppercase text-sm tracking-widest mt-2">Tenaga Ahli</p>
+            </div>
+            <div>
+                <h3 class="text-3xl font-bold text-slate-900">24/7</h3>
+                <p class="text-slate-500 uppercase text-sm tracking-widest mt-2">Dukungan Teknis</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="services" class="py-24 bg-slate-50">
+        <div class="container mx-auto px-6">
+            <div class="text-center mb-16">
+                <h2 class="text-orange-500 font-bold tracking-[0.2em] mb-2 uppercase">Layanan Kami</h2>
+                <p class="text-3xl md:text-4xl font-bold text-slate-900">Solusi Konstruksi Terintegrasi</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl hover:-translate-y-2 transition duration-300">
+                    <div class="w-14 h-14 bg-orange-100 text-orange-600 rounded-lg flex items-center justify-center text-2xl mb-6">
+                        <i class="fas fa-road"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Pembangunan Jalan</h3>
+                    <p class="text-slate-600 leading-relaxed">Konstruksi jalan tol, pengaspalan, dan pemeliharaan aksesibilitas transportasi darat dengan standar kualitas tinggi.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl hover:-translate-y-2 transition duration-300">
+                    <div class="w-14 h-14 bg-orange-100 text-orange-600 rounded-lg flex items-center justify-center text-2xl mb-6">
+                        <i class="fas fa-archway"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Konstruksi Jembatan</h3>
+                    <p class="text-slate-600 leading-relaxed">Perancangan dan pembangunan jembatan beton maupun baja dengan fokus pada keamanan dan struktur yang kokoh.</p>
+                </div>
+                <div class="bg-white p-8 rounded-2xl shadow-sm border border-slate-100 hover:shadow-xl hover:-translate-y-2 transition duration-300">
+                    <div class="w-14 h-14 bg-orange-100 text-orange-600 rounded-lg flex items-center justify-center text-2xl mb-6">
+                        <i class="fas fa-water"></i>
+                    </div>
+                    <h3 class="text-xl font-bold mb-4">Sistem Pengairan</h3>
+                    <p class="text-slate-600 leading-relaxed">Pembangunan bendungan, sistem drainase perkotaan, dan irigasi modern untuk mendukung ketahanan pangan.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="py-24 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="flex flex-col md:flex-row justify-between items-end mb-12 gap-4">
+                <div>
+                    <h2 class="text-orange-500 font-bold tracking-[0.2em] mb-2 uppercase">Portofolio</h2>
+                    <p class="text-3xl md:text-4xl font-bold text-slate-900">Proyek Unggulan</p>
+                </div>
+                <button class="text-orange-500 font-bold border-b-2 border-orange-500 hover:text-orange-600 transition">Lihat Semua Proyek</button>
+            </div>
+            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
+                <div class="group relative overflow-hidden rounded-xl aspect-video bg-slate-200">
+                    <img src="https://images.unsplash.com/photo-1590486803833-ffc6f08d6ff3?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-80"></div>
+                    <div class="absolute bottom-6 left-6">
+                        <p class="text-orange-400 text-sm font-bold uppercase tracking-widest">Jembatan</p>
+                        <h4 class="text-white text-xl font-bold">Proyek Jembatan Lintas Sumatera</h4>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-xl aspect-video bg-slate-200">
+                    <img src="https://images.unsplash.com/photo-1545459720-aac273a27765?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-80"></div>
+                    <div class="absolute bottom-6 left-6">
+                        <p class="text-orange-400 text-sm font-bold uppercase tracking-widest">Jalan Tol</p>
+                        <h4 class="text-white text-xl font-bold">Pembangunan Tol Lingkar Barat</h4>
+                    </div>
+                </div>
+                <div class="group relative overflow-hidden rounded-xl aspect-video bg-slate-200">
+                    <img src="https://images.unsplash.com/photo-1496248051939-0382a018e59a?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-80"></div>
+                    <div class="absolute bottom-6 left-6">
+                        <p class="text-orange-400 text-sm font-bold uppercase tracking-widest">Bendungan</p>
+                        <h4 class="text-white text-xl font-bold">Instalasi Waduk Modern Banten</h4>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="contact" class="bg-slate-900 text-white py-20">
+        <div class="container mx-auto px-6 grid md:grid-cols-4 gap-12">
+            <div class="col-span-2">
+                <h3 class="text-2xl font-bold mb-6">INFRA<span class="text-orange-500">BUILD</span></h3>
+                <p class="text-slate-400 max-w-sm leading-relaxed mb-6">
+                    Solusi kontraktor terpercaya untuk pembangunan negeri. Berkomitmen pada kualitas, keselamatan kerja, dan inovasi teknologi konstruksi.
+                </p>
+                <div class="flex space-x-4">
+                    <a href="#" class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-orange-500 transition"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#" class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-orange-500 transition"><i class="fab fa-instagram"></i></a>
+                    <a href="#" class="w-10 h-10 bg-slate-800 rounded-full flex items-center justify-center hover:bg-orange-500 transition"><i class="fab fa-linkedin-in"></i></a>
+                </div>
+            </div>
+            <div>
+                <h4 class="font-bold mb-6 uppercase tracking-widest text-sm">Navigasi</h4>
+                <ul class="space-y-4 text-slate-400">
+                    <li><a href="#home" class="hover:text-white transition">Beranda</a></li>
+                    <li><a href="#about" class="hover:text-white transition">Tentang Kami</a></li>
+                    <li><a href="#services" class="hover:text-white transition">Layanan</a></li>
+                    <li><a href="#projects" class="hover:text-white transition">Proyek</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4 class="font-bold mb-6 uppercase tracking-widest text-sm">Kontak</h4>
+                <p class="text-slate-400 mb-2">Jl. Pembangunan No. 123</p>
+                <p class="text-slate-400 mb-2">Jakarta Selatan, Indonesia</p>
+                <p class="text-orange-500 font-bold">+62 21 4567 890</p>
+                <p class="text-slate-400">info@infrabuild.com</p>
+            </div>
+        </div>
+        <div class="container mx-auto px-6 mt-16 pt-8 border-t border-slate-800 text-center text-slate-500 text-sm">
+            <p>&copy; 2026 INFRA-BUILD. Semua Hak Dilindungi.</p>
+        </div>
+    </footer>
+
+    <script>
+        // Transparansi Navbar saat Scroll
+        const navbar = document.getElementById('navbar');
+        const infra = document.querySelector('.infra');
+        
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 50) {
+                navbar.classList.add('bg-slate-900', 'py-3','text-white', 'shadow-lg');
+                infra.classList.add('text-white');
+                navbar.classList.remove('bg-transparent', 'py-4', 'text-black');
+            } else {
+                navbar.classList.remove('bg-slate-900', 'py-3', 'text-white', 'shadow-lg');
+                infra.classList.remove('text-white');
+                navbar.classList.add('bg-transparent','text-slate-900', 'py-4');
+                infra.classList.add('text-slate-900');
+            }
+        });
+
+        // Smooth Scroll untuk Anchor Links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
+</body>
+</html>

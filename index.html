@@ -17,7 +17,7 @@
         <div class="text-2xl font-bold text-white tracking-tighter">
             <span class="infra text-white">INFRA</span><span class="text-orange-500">BUILD</span>
         </div>
-        <div class="hidden md:flex space-x-8 font-medium">
+        <div class="hidden md:flex space-x-8 font-medium items-center">
             <a href="#home" class="hover:text-orange-500 transition">Beranda</a>
             <a href="#about" class="hover:text-orange-500 transition">Tentang</a>
             <a href="#services" class="hover:text-orange-500 transition">Layanan</a>
@@ -30,19 +30,27 @@
     </nav>
 
     <section id="home" class="relative h-screen flex items-center justify-center overflow-hidden">
-        <div class="relative z-10 text-center px-4 max-w-4xl flex justify-center flex-col mx-auto">
-            <h1 class="text-4xl md:text-7xl font-bold text-blue-900 mb-6 leading-tight">
-                Membangun Pondasi <span class="text-orange-500">Masa Depan</span> Indonesia
-            </h1>
-            <p class="text-lg md:text-xl text-slate-700 mb-8 max-w-2xl mx-auto">
-                Kontraktor infrastruktur terpercaya dengan spesialisasi pada pembangunan jalan, jembatan, dan sistem pengairan berskala nasional.
-            </p>
-            <div class="flex flex-col md:flex-row gap-4 justify-center">
-                <a href="#projects" class="bg-orange-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-orange-600 transition shadow-lg shadow-orange-500/30">Lihat Proyek Kami</a>
-                <a href="#about" class="bg-white/10 backdrop-blur-md border border-white/20 px-8 py-4 rounded-lg font-bold hover:bg-white/20 transition text-slate-700">Pelajari Lebih Lanjut</a>
-            </div>
+
+    <div class="absolute inset-0 bg-cover bg-center blur-sm"
+         style="background-image: url('assets/bg.jpg');">
+    </div>
+
+    <div class="absolute inset-0 bg-black/40"></div>
+
+    <div class="relative z-10 text-center px-4 max-w-4xl flex justify-center flex-col mx-auto">
+        <h1 class="text-4xl md:text-7xl font-bold text-white mb-6 leading-tight">
+            Membangun Pondasi <span class="text-orange-500">Masa Depan</span> Indonesia
+        </h1>
+        <p class="text-lg md:text-xl text-slate-200 mb-8 max-w-2xl mx-auto">
+            Kontraktor infrastruktur terpercaya dengan spesialisasi pada pembangunan jalan, jembatan, dan sistem pengairan berskala nasional.
+        </p>
+        <div class="flex flex-col md:flex-row gap-4 justify-center">
+            <a href="#projects" class="bg-orange-500 text-white px-8 py-4 rounded-lg font-bold hover:bg-orange-600 transition shadow-lg shadow-orange-500/30">Lihat Proyek Kami</a>
+            <a href="#about" class="bg-white/10 backdrop-blur-md border border-white/20 px-8 py-4 rounded-lg font-bold hover:bg-white/20 transition text-white">Pelajari Lebih Lanjut</a>
         </div>
-    </section>
+    </div>
+
+</section>
 
     <section class="py-12 bg-white border-b">
         <div class="container mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
@@ -108,7 +116,7 @@
             </div>
             <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
                 <div class="group relative overflow-hidden rounded-xl aspect-video bg-slate-200">
-                    <img src="https://images.unsplash.com/photo-1590486803833-ffc6f08d6ff3?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <img src="assets\proyekJembatan.jpg" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-80"></div>
                     <div class="absolute bottom-6 left-6">
                         <p class="text-orange-400 text-sm font-bold uppercase tracking-widest">Jembatan</p>
@@ -116,7 +124,7 @@
                     </div>
                 </div>
                 <div class="group relative overflow-hidden rounded-xl aspect-video bg-slate-200">
-                    <img src="https://images.unsplash.com/photo-1545459720-aac273a27765?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <img src="assets\proyekTol.jpg" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-80"></div>
                     <div class="absolute bottom-6 left-6">
                         <p class="text-orange-400 text-sm font-bold uppercase tracking-widest">Jalan Tol</p>
@@ -124,7 +132,7 @@
                     </div>
                 </div>
                 <div class="group relative overflow-hidden rounded-xl aspect-video bg-slate-200">
-                    <img src="https://images.unsplash.com/photo-1496248051939-0382a018e59a?auto=format&fit=crop&q=80&w=800" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
+                    <img src="assets\proyekWaduk.jpg" class="w-full h-full object-cover group-hover:scale-110 transition duration-500">
                     <div class="absolute inset-0 bg-gradient-to-t from-slate-900 to-transparent opacity-80"></div>
                     <div class="absolute bottom-6 left-6">
                         <p class="text-orange-400 text-sm font-bold uppercase tracking-widest">Bendungan</p>
